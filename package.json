@@ -1,0 +1,24 @@
+{
+  "name": "firebase_test",
+  "version": "1.0.0",
+  "description": "Firebase authentication and admin creation for kadick",
+  "main": "index.js",
+  "author": "samuel okeke",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack && nodemon ./index",
+    "watch": "webpack --watch"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase": "^7.17.1",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "source-map-loader": "^1.0.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
